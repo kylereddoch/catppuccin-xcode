@@ -22,10 +22,12 @@ def to_oklch(hex_color):
     a = 1.9779984951 * l - 2.428592205 * m + .4505937099 * s
     b = .0259040371 * l + .7827717662 * m - .808675766 * s
     return {
-        "chroma": {"exact": math.hypot(a, b)},
+        # Normalize libm's trailing-bit differences across macOS and Linux.
+        # Twelve decimals preserve every 8-bit sRGB palette value exactly.
+        "chroma": {"exact": round(math.hypot(a, b), 12)},
         "gamut": "sRGB",
-        "hue": {"radians": math.atan2(b, a) % (2 * math.pi)},
-        "lightness": {"exact": lightness},
+        "hue": {"radians": round(math.atan2(b, a) % (2 * math.pi), 12)},
+        "lightness": {"exact": round(lightness, 12)},
         "opacity": 1,
     }
 
