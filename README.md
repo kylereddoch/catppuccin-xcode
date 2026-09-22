@@ -1,0 +1,81 @@
+# Catppuccin for Xcode 27
+
+Four pastel palettes for Xcode's Appearance settings, from light Latte to dark Mocha. Native workspace themes with solid backgrounds and 38 explicit color assignments for syntax, documentation, selections, cursors, diffs, and the debugger.
+
+An independent project by Kyle Reddoch, based on the [Catppuccin palette](https://github.com/catppuccin/palette). This is not an official Catppuccin port. The [official Xcode port](https://github.com/catppuccin/xcode) is a separate project.
+
+## Themes and status
+
+| Flavor | Appearance | Background | Status |
+| --- | --- | --- | --- |
+| [Latte](themes/Catppuccin%20Latte.xcworkspacecolortheme) | Light | `#EFF1F5` | Initial palette mapping; Xcode visual review pending |
+| [Frappé](themes/Catppuccin%20Frapp%C3%A9.xcworkspacecolortheme) | Dark | `#303446` | Initial palette mapping; Xcode visual review pending |
+| [Macchiato](themes/Catppuccin%20Macchiato.xcworkspacecolortheme) | Dark | `#24273A` | Initial palette mapping; Xcode visual review pending |
+| [Mocha](themes/Catppuccin%20Mocha.xcworkspacecolortheme) | Dark | `#1E1E2E` | Loaded and spot-checked in Xcode 27.0 Appearance |
+
+All four pass automated color and file checks. These checks do not replace reviewing real Xcode windows. This is an early development version; see the [roadmap](docs/ROADMAP.md) and [verification record](docs/VERIFICATION.md).
+
+## Install
+
+Requires macOS and **Xcode 27**. These `.xcworkspacecolortheme` files are not compatible with Xcode 26's legacy theme format.
+
+Download this repository using **Code → Download ZIP** and unzip it, or clone it:
+
+```sh
+git clone https://github.com/kylereddoch/catppuccin-xcode-27.git
+cd catppuccin-xcode-27
+sh install.sh --all
+```
+
+To install one theme, use `sh install.sh mocha`, `latte`, `frappe`, or `macchiato`. With no argument, the installer selects Mocha. It backs up any different file with the same name before replacing it, and leaves other themes alone.
+
+Restart Xcode when convenient. Open **Xcode → Settings → Appearance → Theme → Choose…**, then select your theme. Use Light appearance for Latte and Dark appearance for the other three. You can configure separate themes for light and dark appearances.
+
+### Manual installation
+
+Copy your chosen files from `themes/` into:
+
+```text
+~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+```
+
+Create the folder if needed, then restart Xcode.
+
+**Avoid the “Import…” button in the tested Xcode 27.0 build.** It treated the native file as a classic theme and substituted default colors. Copying the native file into the theme folder loaded the correct colors.
+
+## What's themed
+
+- Workspace and editor background, with a palette seed for generated interface colors.
+- Text, comments, documentation, keywords, attributes, strings, regex, numbers, characters, and links.
+- Preprocessors and macros; project and external types, functions, constants, and variables.
+- Selection, cursor color, current line, invisibles, diff additions/deletions, and debugger color.
+
+Xcode derives additional workspace surfaces, console colors, and status treatments from the recipe. Those derived colors are not independent exact palette overrides. System controls and the Settings window retain Apple's appearance treatment. Fonts, sizes, line spacing, and cursor shape are separate Xcode settings; installing these themes does not change them.
+
+## Development
+
+Python 3.9 or later, with no third-party dependencies:
+
+```sh
+python3 scripts/generate.py
+python3 scripts/generate.py --check
+python3 -m unittest discover -s tests -v
+```
+
+The source of truth is the pinned palette in `palettes/catppuccin.json` plus the semantic assignments in `palettes/mapping.json`. Edit the mapping and regenerate; do not hand-edit generated theme files. `--flavor latte` limits generation to one theme. The shared mapping preserves the original Mocha colors; refinements for light-theme readability are part of the upcoming visual review.
+
+The generator converts exact sRGB palette values to Xcode's OKLCH representation. Checks cover round-trip color fidelity, all 38 assignments, light/dark metadata, generated-file drift, and installer backups in a temporary directory.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for review guidance.
+
+## Uninstall
+
+Select a different theme, move the corresponding Catppuccin files out of the theme folder, then restart Xcode. Installer backups, when created, are under the theme folder's `Backups/` directory.
+
+## Credits and license
+
+- [Catppuccin](https://github.com/catppuccin/catppuccin) supplies the palette; its MIT notice is included in [palettes/LICENSE](palettes/LICENSE). The exact revision is recorded in [palettes/SOURCE.md](palettes/SOURCE.md).
+- [Neon Glow](https://github.com/Angel5215/NeonGlow) was a reference for Xcode 27's native file structure and installation location. Its theme colors and implementation are not bundled here.
+- [Apple's Xcode 27 overview](https://developer.apple.com/videos/play/wwdc2026/258/) describes workspace themes and separate font settings.
+
+Project code and original mappings are available under the [MIT license](LICENSE).
