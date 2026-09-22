@@ -6,12 +6,14 @@ An independent project by Kyle Reddoch, based on the [Catppuccin palette](https:
 
 ## Themes and status
 
-| Flavor | Appearance | Background | Status |
-| --- | --- | --- | --- |
-| [Latte](themes/Catppuccin%20Latte.xcworkspacecolortheme) | Light | `#EFF1F5` | Initial palette mapping; Xcode visual review pending |
-| [Frappé](themes/Catppuccin%20Frapp%C3%A9.xcworkspacecolortheme) | Dark | `#303446` | Initial palette mapping; Xcode visual review pending |
-| [Macchiato](themes/Catppuccin%20Macchiato.xcworkspacecolortheme) | Dark | `#24273A` | Initial palette mapping; Xcode visual review pending |
-| [Mocha](themes/Catppuccin%20Mocha.xcworkspacecolortheme) | Dark | `#1E1E2E` | Loaded and spot-checked in Xcode 27.0 Appearance |
+Each flavor has a color guide with a syntax example, labeled swatches, and a complete table of what each color controls.
+
+| Color guide | Appearance | Background | Theme file | Status |
+| --- | --- | --- | --- | --- |
+| [Latte](docs/themes/latte.md) | Light | `#EFF1F5` | [Download](themes/Catppuccin%20Latte.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
+| [Frappé](docs/themes/frappe.md) | Dark | `#303446` | [Download](themes/Catppuccin%20Frapp%C3%A9.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
+| [Macchiato](docs/themes/macchiato.md) | Dark | `#24273A` | [Download](themes/Catppuccin%20Macchiato.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
+| [Mocha](docs/themes/mocha.md) | Dark | `#1E1E2E` | [Download](themes/Catppuccin%20Mocha.xcworkspacecolortheme) | Loaded and spot-checked in Xcode 27.0 Appearance |
 
 All four pass automated color and file checks. These checks do not replace reviewing real Xcode windows. This is an early development version; see the [roadmap](docs/ROADMAP.md) and [verification record](docs/VERIFICATION.md).
 
@@ -58,11 +60,13 @@ Python 3.9 or later, with no third-party dependencies:
 
 ```sh
 python3 scripts/generate.py
+python3 scripts/generate_guides.py
 python3 scripts/generate.py --check
+python3 scripts/generate_guides.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-The source of truth is the pinned palette in `palettes/catppuccin.json` plus the semantic assignments in `palettes/mapping.json`. Edit the mapping and regenerate; do not hand-edit generated theme files. `--flavor latte` limits generation to one theme. The shared mapping preserves the original Mocha colors; refinements for light-theme readability are part of the upcoming visual review.
+The source of truth is the pinned palette in `palettes/catppuccin.json` plus the semantic assignments in `palettes/mapping.json`. Edit the mapping and regenerate both the themes and guides; do not hand-edit generated files. `--flavor latte` limits theme generation to one flavor. The shared mapping preserves the original Mocha colors; refinements for light-theme readability are part of the upcoming visual review.
 
 The generator converts exact sRGB palette values to Xcode's OKLCH representation. Checks cover round-trip color fidelity, all 38 assignments, light/dark metadata, generated-file drift, and installer backups in a temporary directory.
 

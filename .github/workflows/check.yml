@@ -18,6 +18,8 @@ jobs:
           python-version: '3.11'
       - name: Verify generated themes
         run: python3 scripts/generate.py --check
+      - name: Verify generated color guides
+        run: python3 scripts/generate_guides.py --check
       - name: Verify colors and installer behavior
         run: python3 -m unittest discover -s tests -v
       - name: Check installer syntax

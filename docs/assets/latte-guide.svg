@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1190" viewBox="0 0 1100 1190" role="img" aria-labelledby="title description">
+<title id="title">Catppuccin Latte color guide</title>
+<desc id="description">Illustrative Swift syntax, labeled editor colors, and all 26 palette swatches. Exact mappings and hex values are also provided as text on the guide page. This is not an Xcode screenshot.</desc>
+<rect width="1100" height="1190" rx="18" fill="#eff1f5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<text x="32" y="49" fill="#4c4f69" font-size="30" font-weight="650">Catppuccin Latte</text>
+<text x="32" y="78" fill="#5c5f77" font-size="16" font-weight="400">Light appearance · Illustrative color guide · Background #EFF1F5</text>
+<rect x="32" y="104" width="648" height="386" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<text x="54" y="135" fill="#5c5f77" font-size="13" font-weight="650">SWIFT SYNTAX</text>
+<text x="54" y="168" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#8839ef">import </tspan><tspan fill="#df8e1d">SwiftUI</tspan></text>
+<text x="54" y="192" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"></text>
+<text x="54" y="216" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#7c7f93">/// A fresh cup of coffee.</tspan></text>
+<text x="54" y="240" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#df8e1d">@MainActor</tspan></text>
+<text x="54" y="264" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#8839ef">struct </tspan><tspan fill="#df8e1d">Coffee</tspan><tspan fill="#4c4f69"> {</tspan></text>
+<text x="54" y="288" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">    </tspan><tspan fill="#8839ef">let </tspan><tspan fill="#1e66f5">id</tspan><tspan fill="#4c4f69"> = </tspan><tspan fill="#fe640b">42</tspan></text>
+<text x="54" y="312" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">    </tspan><tspan fill="#8839ef">var </tspan><tspan fill="#1e66f5">name</tspan><tspan fill="#4c4f69"> = </tspan><tspan fill="#40a02b">&quot;Latte&quot;</tspan></text>
+<text x="54" y="336" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"></text>
+<text x="54" y="360" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">    </tspan><tspan fill="#8839ef">func </tspan><tspan fill="#1e66f5">brew</tspan><tspan fill="#4c4f69">() -&gt; </tspan><tspan fill="#df8e1d">String</tspan><tspan fill="#4c4f69"> {</tspan></text>
+<text x="54" y="384" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">        </tspan><tspan fill="#7c7f93">// Make something wonderful.</tspan></text>
+<text x="54" y="408" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">        </tspan><tspan fill="#8839ef">return </tspan><tspan fill="#4c4f69">name</tspan><tspan fill="#4c4f69">.</tspan><tspan fill="#1e66f5">uppercased</tspan><tspan fill="#4c4f69">()</tspan></text>
+<text x="54" y="432" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">    }</tspan></text>
+<text x="54" y="456" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#4c4f69">}</tspan></text>
+<rect x="706" y="116" width="18" height="18" rx="4" fill="#8839ef"/>
+<text x="736" y="128" fill="#4c4f69" font-size="14" font-weight="550">Keywords</text>
+<text x="736" y="144" fill="#5c5f77" font-size="12" font-weight="400">Mauve · #8839EF</text>
+<rect x="706" y="153" width="18" height="18" rx="4" fill="#df8e1d"/>
+<text x="736" y="165" fill="#4c4f69" font-size="14" font-weight="550">Attributes / types</text>
+<text x="736" y="181" fill="#5c5f77" font-size="12" font-weight="400">Yellow · #DF8E1D</text>
+<rect x="706" y="190" width="18" height="18" rx="4" fill="#1e66f5"/>
+<text x="736" y="202" fill="#4c4f69" font-size="14" font-weight="550">Functions / declarations</text>
+<text x="736" y="218" fill="#5c5f77" font-size="12" font-weight="400">Blue · #1E66F5</text>
+<rect x="706" y="227" width="18" height="18" rx="4" fill="#40a02b"/>
+<text x="736" y="239" fill="#4c4f69" font-size="14" font-weight="550">Strings</text>
+<text x="736" y="255" fill="#5c5f77" font-size="12" font-weight="400">Green · #40A02B</text>
+<rect x="706" y="264" width="18" height="18" rx="4" fill="#fe640b"/>
+<text x="736" y="276" fill="#4c4f69" font-size="14" font-weight="550">Numbers / constants</text>
+<text x="736" y="292" fill="#5c5f77" font-size="12" font-weight="400">Peach · #FE640B</text>
+<rect x="706" y="301" width="18" height="18" rx="4" fill="#4c4f69"/>
+<text x="736" y="313" fill="#4c4f69" font-size="14" font-weight="550">Plain text / variables</text>
+<text x="736" y="329" fill="#5c5f77" font-size="12" font-weight="400">Text · #4C4F69</text>
+<rect x="706" y="338" width="18" height="18" rx="4" fill="#7c7f93"/>
+<text x="736" y="350" fill="#4c4f69" font-size="14" font-weight="550">Comments / documentation</text>
+<text x="736" y="366" fill="#5c5f77" font-size="12" font-weight="400">Overlay 2 · #7C7F93</text>
+<rect x="706" y="375" width="18" height="18" rx="4" fill="#ea76cb"/>
+<text x="736" y="387" fill="#4c4f69" font-size="14" font-weight="550">Regex / preprocessors</text>
+<text x="736" y="403" fill="#5c5f77" font-size="12" font-weight="400">Pink · #EA76CB</text>
+<rect x="706" y="412" width="18" height="18" rx="4" fill="#209fb5"/>
+<text x="736" y="424" fill="#4c4f69" font-size="14" font-weight="550">Links</text>
+<text x="736" y="440" fill="#5c5f77" font-size="12" font-weight="400">Sapphire · #209FB5</text>
+<rect x="706" y="449" width="18" height="18" rx="4" fill="#7287fd"/>
+<text x="736" y="461" fill="#4c4f69" font-size="14" font-weight="550">Documentation emphasis</text>
+<text x="736" y="477" fill="#5c5f77" font-size="12" font-weight="400">Lavender · #7287FD</text>
+<text x="32" y="532" fill="#5c5f77" font-size="14" font-weight="650">EDITOR COLORS</text>
+<rect x="32" y="552" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="44" y="566" width="28" height="48" rx="4" fill="#ccd0da"/>
+<text x="84" y="581" fill="#4c4f69" font-size="14" font-weight="600">Current line</text>
+<text x="84" y="601" fill="#5c5f77" font-size="12" font-weight="400">Surface 0</text>
+<text x="84" y="617" fill="#5c5f77" font-size="12" font-weight="400">#CCD0DA</text>
+<rect x="298" y="552" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="310" y="566" width="28" height="48" rx="4" fill="#bcc0cc"/>
+<text x="350" y="581" fill="#4c4f69" font-size="14" font-weight="600">Selection</text>
+<text x="350" y="601" fill="#5c5f77" font-size="12" font-weight="400">Surface 1</text>
+<text x="350" y="617" fill="#5c5f77" font-size="12" font-weight="400">#BCC0CC</text>
+<rect x="564" y="552" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="576" y="566" width="28" height="48" rx="4" fill="#dc8a78"/>
+<text x="616" y="581" fill="#4c4f69" font-size="14" font-weight="600">Cursor</text>
+<text x="616" y="601" fill="#5c5f77" font-size="12" font-weight="400">Rosewater</text>
+<text x="616" y="617" fill="#5c5f77" font-size="12" font-weight="400">#DC8A78</text>
+<rect x="830" y="552" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="842" y="566" width="28" height="48" rx="4" fill="#acb0be"/>
+<text x="882" y="581" fill="#4c4f69" font-size="14" font-weight="600">Invisible characters</text>
+<text x="882" y="601" fill="#5c5f77" font-size="12" font-weight="400">Surface 2</text>
+<text x="882" y="617" fill="#5c5f77" font-size="12" font-weight="400">#ACB0BE</text>
+<rect x="32" y="647" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="44" y="661" width="28" height="48" rx="4" fill="#40a02b"/>
+<text x="84" y="676" fill="#4c4f69" font-size="14" font-weight="600">Diff additions</text>
+<text x="84" y="696" fill="#5c5f77" font-size="12" font-weight="400">Green</text>
+<text x="84" y="712" fill="#5c5f77" font-size="12" font-weight="400">#40A02B</text>
+<rect x="298" y="647" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="310" y="661" width="28" height="48" rx="4" fill="#d20f39"/>
+<text x="350" y="676" fill="#4c4f69" font-size="14" font-weight="600">Diff deletions</text>
+<text x="350" y="696" fill="#5c5f77" font-size="12" font-weight="400">Red</text>
+<text x="350" y="712" fill="#5c5f77" font-size="12" font-weight="400">#D20F39</text>
+<rect x="564" y="647" width="240" height="78" rx="8" fill="#eff1f5" stroke="#acb0be"/>
+<rect x="576" y="661" width="28" height="48" rx="4" fill="#179299"/>
+<text x="616" y="676" fill="#4c4f69" font-size="14" font-weight="600">Debugger</text>
+<text x="616" y="696" fill="#5c5f77" font-size="12" font-weight="400">Teal</text>
+<text x="616" y="712" fill="#5c5f77" font-size="12" font-weight="400">#179299</text>
+<text x="32" y="781" fill="#5c5f77" font-size="14" font-weight="650">FULL PALETTE</text>
+<rect x="32" y="806" width="28" height="42" rx="4" fill="#dc8a78" stroke="#acb0be"/>
+<text x="69" y="822" fill="#4c4f69" font-size="13" font-weight="550">Rosewater</text>
+<text x="69" y="841" fill="#5c5f77" font-size="12" font-weight="400">#DC8A78</text>
+<rect x="209" y="806" width="28" height="42" rx="4" fill="#dd7878" stroke="#acb0be"/>
+<text x="246" y="822" fill="#4c4f69" font-size="13" font-weight="550">Flamingo</text>
+<text x="246" y="841" fill="#5c5f77" font-size="12" font-weight="400">#DD7878</text>
+<rect x="386" y="806" width="28" height="42" rx="4" fill="#ea76cb" stroke="#acb0be"/>
+<text x="423" y="822" fill="#4c4f69" font-size="13" font-weight="550">Pink</text>
+<text x="423" y="841" fill="#5c5f77" font-size="12" font-weight="400">#EA76CB</text>
+<rect x="563" y="806" width="28" height="42" rx="4" fill="#8839ef" stroke="#acb0be"/>
+<text x="600" y="822" fill="#4c4f69" font-size="13" font-weight="550">Mauve</text>
+<text x="600" y="841" fill="#5c5f77" font-size="12" font-weight="400">#8839EF</text>
+<rect x="740" y="806" width="28" height="42" rx="4" fill="#d20f39" stroke="#acb0be"/>
+<text x="777" y="822" fill="#4c4f69" font-size="13" font-weight="550">Red</text>
+<text x="777" y="841" fill="#5c5f77" font-size="12" font-weight="400">#D20F39</text>
+<rect x="917" y="806" width="28" height="42" rx="4" fill="#e64553" stroke="#acb0be"/>
+<text x="954" y="822" fill="#4c4f69" font-size="13" font-weight="550">Maroon</text>
+<text x="954" y="841" fill="#5c5f77" font-size="12" font-weight="400">#E64553</text>
+<rect x="32" y="870" width="28" height="42" rx="4" fill="#fe640b" stroke="#acb0be"/>
+<text x="69" y="886" fill="#4c4f69" font-size="13" font-weight="550">Peach</text>
+<text x="69" y="905" fill="#5c5f77" font-size="12" font-weight="400">#FE640B</text>
+<rect x="209" y="870" width="28" height="42" rx="4" fill="#df8e1d" stroke="#acb0be"/>
+<text x="246" y="886" fill="#4c4f69" font-size="13" font-weight="550">Yellow</text>
+<text x="246" y="905" fill="#5c5f77" font-size="12" font-weight="400">#DF8E1D</text>
+<rect x="386" y="870" width="28" height="42" rx="4" fill="#40a02b" stroke="#acb0be"/>
+<text x="423" y="886" fill="#4c4f69" font-size="13" font-weight="550">Green</text>
+<text x="423" y="905" fill="#5c5f77" font-size="12" font-weight="400">#40A02B</text>
+<rect x="563" y="870" width="28" height="42" rx="4" fill="#179299" stroke="#acb0be"/>
+<text x="600" y="886" fill="#4c4f69" font-size="13" font-weight="550">Teal</text>
+<text x="600" y="905" fill="#5c5f77" font-size="12" font-weight="400">#179299</text>
+<rect x="740" y="870" width="28" height="42" rx="4" fill="#04a5e5" stroke="#acb0be"/>
+<text x="777" y="886" fill="#4c4f69" font-size="13" font-weight="550">Sky</text>
+<text x="777" y="905" fill="#5c5f77" font-size="12" font-weight="400">#04A5E5</text>
+<rect x="917" y="870" width="28" height="42" rx="4" fill="#209fb5" stroke="#acb0be"/>
+<text x="954" y="886" fill="#4c4f69" font-size="13" font-weight="550">Sapphire</text>
+<text x="954" y="905" fill="#5c5f77" font-size="12" font-weight="400">#209FB5</text>
+<rect x="32" y="934" width="28" height="42" rx="4" fill="#1e66f5" stroke="#acb0be"/>
+<text x="69" y="950" fill="#4c4f69" font-size="13" font-weight="550">Blue</text>
+<text x="69" y="969" fill="#5c5f77" font-size="12" font-weight="400">#1E66F5</text>
+<rect x="209" y="934" width="28" height="42" rx="4" fill="#7287fd" stroke="#acb0be"/>
+<text x="246" y="950" fill="#4c4f69" font-size="13" font-weight="550">Lavender</text>
+<text x="246" y="969" fill="#5c5f77" font-size="12" font-weight="400">#7287FD</text>
+<rect x="386" y="934" width="28" height="42" rx="4" fill="#4c4f69" stroke="#acb0be"/>
+<text x="423" y="950" fill="#4c4f69" font-size="13" font-weight="550">Text</text>
+<text x="423" y="969" fill="#5c5f77" font-size="12" font-weight="400">#4C4F69</text>
+<rect x="563" y="934" width="28" height="42" rx="4" fill="#5c5f77" stroke="#acb0be"/>
+<text x="600" y="950" fill="#4c4f69" font-size="13" font-weight="550">Subtext 1</text>
+<text x="600" y="969" fill="#5c5f77" font-size="12" font-weight="400">#5C5F77</text>
+<rect x="740" y="934" width="28" height="42" rx="4" fill="#6c6f85" stroke="#acb0be"/>
+<text x="777" y="950" fill="#4c4f69" font-size="13" font-weight="550">Subtext 0</text>
+<text x="777" y="969" fill="#5c5f77" font-size="12" font-weight="400">#6C6F85</text>
+<rect x="917" y="934" width="28" height="42" rx="4" fill="#7c7f93" stroke="#acb0be"/>
+<text x="954" y="950" fill="#4c4f69" font-size="13" font-weight="550">Overlay 2</text>
+<text x="954" y="969" fill="#5c5f77" font-size="12" font-weight="400">#7C7F93</text>
+<rect x="32" y="998" width="28" height="42" rx="4" fill="#8c8fa1" stroke="#acb0be"/>
+<text x="69" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Overlay 1</text>
+<text x="69" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#8C8FA1</text>
+<rect x="209" y="998" width="28" height="42" rx="4" fill="#9ca0b0" stroke="#acb0be"/>
+<text x="246" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Overlay 0</text>
+<text x="246" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#9CA0B0</text>
+<rect x="386" y="998" width="28" height="42" rx="4" fill="#acb0be" stroke="#acb0be"/>
+<text x="423" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Surface 2</text>
+<text x="423" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#ACB0BE</text>
+<rect x="563" y="998" width="28" height="42" rx="4" fill="#bcc0cc" stroke="#acb0be"/>
+<text x="600" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Surface 1</text>
+<text x="600" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#BCC0CC</text>
+<rect x="740" y="998" width="28" height="42" rx="4" fill="#ccd0da" stroke="#acb0be"/>
+<text x="777" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Surface 0</text>
+<text x="777" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#CCD0DA</text>
+<rect x="917" y="998" width="28" height="42" rx="4" fill="#eff1f5" stroke="#acb0be"/>
+<text x="954" y="1014" fill="#4c4f69" font-size="13" font-weight="550">Base</text>
+<text x="954" y="1033" fill="#5c5f77" font-size="12" font-weight="400">#EFF1F5</text>
+<rect x="32" y="1062" width="28" height="42" rx="4" fill="#e6e9ef" stroke="#acb0be"/>
+<text x="69" y="1078" fill="#4c4f69" font-size="13" font-weight="550">Mantle</text>
+<text x="69" y="1097" fill="#5c5f77" font-size="12" font-weight="400">#E6E9EF</text>
+<rect x="209" y="1062" width="28" height="42" rx="4" fill="#dce0e8" stroke="#acb0be"/>
+<text x="246" y="1078" fill="#4c4f69" font-size="13" font-weight="550">Crust</text>
+<text x="246" y="1097" fill="#5c5f77" font-size="12" font-weight="400">#DCE0E8</text>
+<text x="32" y="1160" fill="#5c5f77" font-size="14" font-weight="400">Generated from the repository palette and mappings. See the guide tables for exact assignments.</text>
+</g></svg>
