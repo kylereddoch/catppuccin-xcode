@@ -10,12 +10,12 @@ An independent project by Kyle Reddoch, based on the [Catppuccin palette](https:
 
 Each flavor has a color guide with a syntax example, labeled swatches, and a complete table of what each color controls.
 
-| Color guide | Appearance | Background | Theme file | Status |
-| --- | --- | --- | --- | --- |
-| [Latte](docs/themes/latte.md) | Light | `#EFF1F5` | [Download](themes/Catppuccin%20Latte.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
-| [Frappé](docs/themes/frappe.md) | Dark | `#303446` | [Download](themes/Catppuccin%20Frapp%C3%A9.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
-| [Macchiato](docs/themes/macchiato.md) | Dark | `#24273A` | [Download](themes/Catppuccin%20Macchiato.xcworkspacecolortheme) | Initial palette mapping; Xcode visual review pending |
-| [Mocha](docs/themes/mocha.md) | Dark | `#1E1E2E` | [Download](themes/Catppuccin%20Mocha.xcworkspacecolortheme) | Loaded and spot-checked in Xcode 27.0 Appearance |
+| Color guide | Appearance | Background | Theme file |
+| --- | --- | --- | --- |
+| [Latte](docs/themes/latte.md) | Light | `#EFF1F5` | [Download](themes/Catppuccin%20Latte.xcworkspacecolortheme) |
+| [Frappé](docs/themes/frappe.md) | Dark | `#303446` | [Download](themes/Catppuccin%20Frapp%C3%A9.xcworkspacecolortheme) |
+| [Macchiato](docs/themes/macchiato.md) | Dark | `#24273A` | [Download](themes/Catppuccin%20Macchiato.xcworkspacecolortheme) |
+| [Mocha](docs/themes/mocha.md) | Dark | `#1E1E2E` | [Download](themes/Catppuccin%20Mocha.xcworkspacecolortheme) |
 
 All four pass automated color and file checks. These checks do not replace reviewing real Xcode windows. This is an early development version; see the [roadmap](docs/ROADMAP.md) and [verification record](docs/VERIFICATION.md).
 
