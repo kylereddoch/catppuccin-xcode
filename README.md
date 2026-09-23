@@ -4,7 +4,7 @@ Four pastel palettes for Xcode's Appearance settings, from light Latte to dark M
 
 **Requires Xcode 27**, which introduced workspace-wide theming in Appearance settings. These themes use its native `.xcworkspacecolortheme` format; older Xcode versions are not supported.
 
-An independent project by Kyle Reddoch, based on the [Catppuccin palette](https://github.com/catppuccin/palette). This is not an official Catppuccin port. The [official Xcode port](https://github.com/catppuccin/xcode) is a separate project.
+An independent project by Kyle Reddoch, based on the [Catppuccin palette](https://github.com/catppuccin/palette). This is not an official Catppuccin port. The [official Xcode port](https://github.com/catppuccin/xcode) is a separate project. Its classic themes import into Xcode 27.1, but our testing found color changes during conversion. These native themes preserve the exact palette and align their shared syntax assignments with that port. See the [compatibility and coverage report](docs/UPSTREAM-COMPATIBILITY.md).
 
 ## Themes and status
 
@@ -68,9 +68,9 @@ python3 scripts/generate_guides.py --check
 python3 -m unittest discover -s tests -v
 ```
 
-The source of truth is the pinned palette in `palettes/catppuccin.json` plus the semantic assignments in `palettes/mapping.json`. Edit the mapping and regenerate both the themes and guides; do not hand-edit generated files. `--flavor latte` limits theme generation to one flavor. The shared mapping preserves the original Mocha colors; refinements for light-theme readability are part of the upcoming visual review.
+The source of truth is the pinned palette in `palettes/catppuccin.json` plus the semantic assignments in `palettes/mapping.json`. Edit the mapping and regenerate both the themes and guides; do not hand-edit generated files. `--flavor latte` limits theme generation to one flavor. The shared mapping follows the pinned official Xcode port for directly corresponding colors. The coverage manifest in `palettes/upstream-coverage.json` records every legacy setting and any native limitation.
 
-The generator converts exact sRGB palette values to Xcode's OKLCH representation. Checks cover round-trip color fidelity, all 38 assignments, light/dark metadata, generated-file drift, and installer backups in a temporary directory.
+The generator converts exact sRGB palette values to Xcode's OKLCH representation. Checks cover round-trip color fidelity, all 38 assignments, light/dark metadata, generated-file drift, and installer backups in a temporary directory. Additional tests compare native colors against byte-verified official fixtures for all four flavors and account for all 104 legacy settings.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for review guidance.
 
@@ -81,6 +81,7 @@ Select a different theme, move the corresponding Catppuccin files out of the the
 ## Credits and license
 
 - [Catppuccin](https://github.com/catppuccin/catppuccin) supplies the palette; its MIT notice is included in [palettes/LICENSE](palettes/LICENSE). The exact revision is recorded in [palettes/SOURCE.md](palettes/SOURCE.md).
+- [Official Catppuccin Xcode port](https://github.com/catppuccin/xcode) supplies the reference syntax assignments and licensed test fixtures; see [fixture provenance](tests/fixtures/upstream/SOURCE.md).
 - [Neon Glow](https://github.com/Angel5215/NeonGlow) was a reference for Xcode 27's native file structure and installation location. Its theme colors and implementation are not bundled here.
 - [Apple's Xcode 27 overview](https://developer.apple.com/videos/play/wwdc2026/258/) describes workspace themes and separate font settings.
 

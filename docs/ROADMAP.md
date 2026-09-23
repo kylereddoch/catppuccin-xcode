@@ -7,6 +7,9 @@
 - [x] Initial Latte, Frappé, and Macchiato themes with correct light/dark metadata.
 - [x] Selective installer with backups and automated checks.
 - [x] MIT license and upstream attribution.
+- [x] Import all four official legacy themes in Xcode 27.1 and compare converted colors.
+- [x] Align direct native color mappings with the official port; account for every legacy setting.
+- [x] Load all four revised native themes and spot-check Appearance color controls.
 
 ## Before a stable release
 
@@ -22,4 +25,4 @@
 
 - Optional accent variants if Xcode's generated interface colors warrant them.
 - A separate legacy-format export if there is demand for Xcode 26 support.
-- Collaboration with the official Catppuccin Xcode port after this format is validated.
+- A native-theme contribution to the official Catppuccin Xcode port, building on [issue #22](https://github.com/catppuccin/xcode/issues/22). See the [compatibility report](UPSTREAM-COMPATIBILITY.md).

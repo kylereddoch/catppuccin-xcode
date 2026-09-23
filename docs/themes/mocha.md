@@ -29,42 +29,42 @@ All **38 explicit assignments** are listed here. “Fallback” is the broader c
 | --- | --- | --- | --- |
 | Plain text | Punctuation and unclassified source text | Text | `#CDD6F4` |
 | Comments | // Take a coffee break | Overlay 2 | `#9399B2` |
-| Emphasized comments | Comment emphasis / markers | Subtext 1 | `#BAC2DE` |
+| Emphasized comments | Comment emphasis / markers | Overlay 2 | `#9399B2` |
 | Documentation comments | /// A fresh cup of coffee | Overlay 2 | `#9399B2` |
-| Emphasized documentation | Emphasis inside documentation | Lavender | `#B4BEFE` |
+| Emphasized documentation | Emphasis inside documentation | Overlay 2 | `#9399B2` |
 | Keywords | struct, let, var, func, return | Mauve | `#CBA6F7` |
-| Attributes | @MainActor, @State | Yellow | `#F9E2AF` |
+| Attributes | @MainActor, @State | Teal | `#94E2D5` |
 | Strings | "Coffee is ready" | Green | `#A6E3A1` |
 | Regular expressions | /[A-Z]+/ | Pink | `#F5C2E7` |
 | Numbers | 42, 3.14 | Peach | `#FAB387` |
-| Character literals | 'A' in a language with character literals | Teal | `#94E2D5` |
-| Links | URLs in source documentation | Sapphire | `#74C7EC` |
-| Preprocessor directives | #if, #endif | Pink | `#F5C2E7` |
-| Project macros | A macro defined in your project | Pink | `#F5C2E7` |
-| System macros | A macro supplied by the SDK | Pink | `#F5C2E7` |
+| Character literals | 'A' in a language with character literals | Green | `#A6E3A1` |
+| Links | URLs in source documentation | Blue | `#89B4FA` |
+| Preprocessor directives | #if, #endif | Teal | `#94E2D5` |
+| Project macros | A macro defined in your project | Blue | `#89B4FA` |
+| System macros | A macro supplied by the SDK | Blue | `#89B4FA` |
 | Type declarations | Coffee in struct Coffee | Yellow | `#F9E2AF` |
-| Member declarations | The declared property or function name | Blue | `#89B4FA` |
+| Member declarations | The declared property or function name | Text | `#CDD6F4` |
 | Project types — fallback | A type from your project | Yellow | `#F9E2AF` |
 | Project classes | A reference to your CoffeeStore class | Yellow | `#F9E2AF` |
 | Project type references | A reference to your Coffee type | Yellow | `#F9E2AF` |
-| Project members — fallback | A member from your project | Text | `#CDD6F4` |
+| Project members — fallback | A member from your project | Blue | `#89B4FA` |
 | Project functions | A call to your brew() function | Blue | `#89B4FA` |
 | Project constants | A reference classified as a project constant | Peach | `#FAB387` |
 | Project variables | A reference classified as a project variable | Text | `#CDD6F4` |
 | External types — fallback | A type provided by a framework | Yellow | `#F9E2AF` |
 | External classes | A reference to an SDK class | Yellow | `#F9E2AF` |
 | External type references | String, Int, Text | Yellow | `#F9E2AF` |
-| External members — fallback | A member provided by a framework | Lavender | `#B4BEFE` |
+| External members — fallback | A member provided by a framework | Blue | `#89B4FA` |
 | External functions | print(), uppercased() | Blue | `#89B4FA` |
 | External constants | A reference classified as an SDK constant | Peach | `#FAB387` |
-| External variables | A reference classified as an SDK variable | Lavender | `#B4BEFE` |
+| External variables | A reference classified as an SDK variable | Text | `#CDD6F4` |
 | Selection background | The fill behind selected text | Surface 1 | `#45475A` |
-| Cursor color | Your text insertion point | Rosewater | `#F5E0DC` |
+| Cursor color | Your text insertion point | Subtext 0 | `#A6ADC8` |
 | Current line background | The fill behind the active line | Surface 0 | `#313244` |
 | Invisible characters | Visible whitespace markers when enabled | Surface 2 | `#585B70` |
 | Diff additions | Added code in a comparison | Green | `#A6E3A1` |
 | Diff deletions | Removed code in a comparison | Red | `#F38BA8` |
-| Debugger | The debugger color supplied to Xcode | Teal | `#94E2D5` |
+| Debugger | The debugger color supplied to Xcode | Green | `#A6E3A1` |
 
 ## Palette reference
 
@@ -72,7 +72,7 @@ These are all 26 official Mocha colors. A color being in the palette does not me
 
 | Color | Hex | Use in this theme |
 | --- | --- | --- |
-| Rosewater | `#F5E0DC` | Used by this theme |
+| Rosewater | `#F5E0DC` | Available in palette; not explicitly assigned |
 | Flamingo | `#F2CDCD` | Available in palette; not explicitly assigned |
 | Pink | `#F5C2E7` | Used by this theme |
 | Mauve | `#CBA6F7` | Used by this theme |
@@ -83,12 +83,12 @@ These are all 26 official Mocha colors. A color being in the palette does not me
 | Green | `#A6E3A1` | Used by this theme |
 | Teal | `#94E2D5` | Used by this theme |
 | Sky | `#89DCEB` | Available in palette; not explicitly assigned |
-| Sapphire | `#74C7EC` | Used by this theme |
+| Sapphire | `#74C7EC` | Available in palette; not explicitly assigned |
 | Blue | `#89B4FA` | Used by this theme |
 | Lavender | `#B4BEFE` | Used by this theme |
 | Text | `#CDD6F4` | Used by this theme |
-| Subtext 1 | `#BAC2DE` | Used by this theme |
-| Subtext 0 | `#A6ADC8` | Available in palette; not explicitly assigned |
+| Subtext 1 | `#BAC2DE` | Available in palette; not explicitly assigned |
+| Subtext 0 | `#A6ADC8` | Used by this theme |
 | Overlay 2 | `#9399B2` | Used by this theme |
 | Overlay 1 | `#7F849C` | Available in palette; not explicitly assigned |
 | Overlay 0 | `#6C7086` | Available in palette; not explicitly assigned |

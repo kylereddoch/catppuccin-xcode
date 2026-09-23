@@ -10,12 +10,12 @@
 <text x="54" y="168" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#c6a0f6">import </tspan><tspan fill="#eed49f">SwiftUI</tspan></text>
 <text x="54" y="192" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"></text>
 <text x="54" y="216" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#939ab7">/// A fresh cup of coffee.</tspan></text>
-<text x="54" y="240" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#eed49f">@MainActor</tspan></text>
+<text x="54" y="240" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#8bd5ca">@MainActor</tspan></text>
 <text x="54" y="264" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#c6a0f6">struct </tspan><tspan fill="#eed49f">Coffee</tspan><tspan fill="#cad3f5"> {</tspan></text>
-<text x="54" y="288" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">let </tspan><tspan fill="#8aadf4">id</tspan><tspan fill="#cad3f5"> = </tspan><tspan fill="#f5a97f">42</tspan></text>
-<text x="54" y="312" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">var </tspan><tspan fill="#8aadf4">name</tspan><tspan fill="#cad3f5"> = </tspan><tspan fill="#a6da95">&quot;Macchiato&quot;</tspan></text>
+<text x="54" y="288" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">let </tspan><tspan fill="#cad3f5">id</tspan><tspan fill="#cad3f5"> = </tspan><tspan fill="#f5a97f">42</tspan></text>
+<text x="54" y="312" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">var </tspan><tspan fill="#cad3f5">name</tspan><tspan fill="#cad3f5"> = </tspan><tspan fill="#a6da95">&quot;Macchiato&quot;</tspan></text>
 <text x="54" y="336" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"></text>
-<text x="54" y="360" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">func </tspan><tspan fill="#8aadf4">brew</tspan><tspan fill="#cad3f5">() -&gt; </tspan><tspan fill="#eed49f">String</tspan><tspan fill="#cad3f5"> {</tspan></text>
+<text x="54" y="360" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    </tspan><tspan fill="#c6a0f6">func </tspan><tspan fill="#cad3f5">brew</tspan><tspan fill="#cad3f5">() -&gt; </tspan><tspan fill="#eed49f">String</tspan><tspan fill="#cad3f5"> {</tspan></text>
 <text x="54" y="384" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">        </tspan><tspan fill="#939ab7">// Make something wonderful.</tspan></text>
 <text x="54" y="408" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">        </tspan><tspan fill="#c6a0f6">return </tspan><tspan fill="#cad3f5">name</tspan><tspan fill="#cad3f5">.</tspan><tspan fill="#8aadf4">uppercased</tspan><tspan fill="#cad3f5">()</tspan></text>
 <text x="54" y="432" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17"><tspan fill="#cad3f5">    }</tspan></text>
@@ -23,33 +23,33 @@
 <rect x="706" y="116" width="18" height="18" rx="4" fill="#c6a0f6"/>
 <text x="736" y="128" fill="#cad3f5" font-size="14" font-weight="550">Keywords</text>
 <text x="736" y="144" fill="#b8c0e0" font-size="12" font-weight="400">Mauve · #C6A0F6</text>
-<rect x="706" y="153" width="18" height="18" rx="4" fill="#eed49f"/>
-<text x="736" y="165" fill="#cad3f5" font-size="14" font-weight="550">Attributes / types</text>
-<text x="736" y="181" fill="#b8c0e0" font-size="12" font-weight="400">Yellow · #EED49F</text>
-<rect x="706" y="190" width="18" height="18" rx="4" fill="#8aadf4"/>
-<text x="736" y="202" fill="#cad3f5" font-size="14" font-weight="550">Functions / declarations</text>
-<text x="736" y="218" fill="#b8c0e0" font-size="12" font-weight="400">Blue · #8AADF4</text>
-<rect x="706" y="227" width="18" height="18" rx="4" fill="#a6da95"/>
-<text x="736" y="239" fill="#cad3f5" font-size="14" font-weight="550">Strings</text>
-<text x="736" y="255" fill="#b8c0e0" font-size="12" font-weight="400">Green · #A6DA95</text>
-<rect x="706" y="264" width="18" height="18" rx="4" fill="#f5a97f"/>
-<text x="736" y="276" fill="#cad3f5" font-size="14" font-weight="550">Numbers / constants</text>
-<text x="736" y="292" fill="#b8c0e0" font-size="12" font-weight="400">Peach · #F5A97F</text>
-<rect x="706" y="301" width="18" height="18" rx="4" fill="#cad3f5"/>
-<text x="736" y="313" fill="#cad3f5" font-size="14" font-weight="550">Plain text / variables</text>
-<text x="736" y="329" fill="#b8c0e0" font-size="12" font-weight="400">Text · #CAD3F5</text>
-<rect x="706" y="338" width="18" height="18" rx="4" fill="#939ab7"/>
-<text x="736" y="350" fill="#cad3f5" font-size="14" font-weight="550">Comments / documentation</text>
-<text x="736" y="366" fill="#b8c0e0" font-size="12" font-weight="400">Overlay 2 · #939AB7</text>
-<rect x="706" y="375" width="18" height="18" rx="4" fill="#f5bde6"/>
-<text x="736" y="387" fill="#cad3f5" font-size="14" font-weight="550">Regex / preprocessors</text>
-<text x="736" y="403" fill="#b8c0e0" font-size="12" font-weight="400">Pink · #F5BDE6</text>
-<rect x="706" y="412" width="18" height="18" rx="4" fill="#7dc4e4"/>
-<text x="736" y="424" fill="#cad3f5" font-size="14" font-weight="550">Links</text>
-<text x="736" y="440" fill="#b8c0e0" font-size="12" font-weight="400">Sapphire · #7DC4E4</text>
-<rect x="706" y="449" width="18" height="18" rx="4" fill="#b7bdf8"/>
-<text x="736" y="461" fill="#cad3f5" font-size="14" font-weight="550">Documentation emphasis</text>
-<text x="736" y="477" fill="#b8c0e0" font-size="12" font-weight="400">Lavender · #B7BDF8</text>
+<rect x="706" y="153" width="18" height="18" rx="4" fill="#8bd5ca"/>
+<text x="736" y="165" fill="#cad3f5" font-size="14" font-weight="550">Attributes / preprocessors</text>
+<text x="736" y="181" fill="#b8c0e0" font-size="12" font-weight="400">Teal · #8BD5CA</text>
+<rect x="706" y="190" width="18" height="18" rx="4" fill="#eed49f"/>
+<text x="736" y="202" fill="#cad3f5" font-size="14" font-weight="550">Types</text>
+<text x="736" y="218" fill="#b8c0e0" font-size="12" font-weight="400">Yellow · #EED49F</text>
+<rect x="706" y="227" width="18" height="18" rx="4" fill="#8aadf4"/>
+<text x="736" y="239" fill="#cad3f5" font-size="14" font-weight="550">Functions / macros / links</text>
+<text x="736" y="255" fill="#b8c0e0" font-size="12" font-weight="400">Blue · #8AADF4</text>
+<rect x="706" y="264" width="18" height="18" rx="4" fill="#cad3f5"/>
+<text x="736" y="276" fill="#cad3f5" font-size="14" font-weight="550">Declarations / variables</text>
+<text x="736" y="292" fill="#b8c0e0" font-size="12" font-weight="400">Text · #CAD3F5</text>
+<rect x="706" y="301" width="18" height="18" rx="4" fill="#a6da95"/>
+<text x="736" y="313" fill="#cad3f5" font-size="14" font-weight="550">Strings / characters</text>
+<text x="736" y="329" fill="#b8c0e0" font-size="12" font-weight="400">Green · #A6DA95</text>
+<rect x="706" y="338" width="18" height="18" rx="4" fill="#f5a97f"/>
+<text x="736" y="350" fill="#cad3f5" font-size="14" font-weight="550">Numbers / constants</text>
+<text x="736" y="366" fill="#b8c0e0" font-size="12" font-weight="400">Peach · #F5A97F</text>
+<rect x="706" y="375" width="18" height="18" rx="4" fill="#939ab7"/>
+<text x="736" y="387" fill="#cad3f5" font-size="14" font-weight="550">Comments / documentation</text>
+<text x="736" y="403" fill="#b8c0e0" font-size="12" font-weight="400">Overlay 2 · #939AB7</text>
+<rect x="706" y="412" width="18" height="18" rx="4" fill="#f5bde6"/>
+<text x="736" y="424" fill="#cad3f5" font-size="14" font-weight="550">Regular expressions</text>
+<text x="736" y="440" fill="#b8c0e0" font-size="12" font-weight="400">Pink · #F5BDE6</text>
+<rect x="706" y="449" width="18" height="18" rx="4" fill="#cad3f5"/>
+<text x="736" y="461" fill="#cad3f5" font-size="14" font-weight="550">Plain text</text>
+<text x="736" y="477" fill="#b8c0e0" font-size="12" font-weight="400">Text · #CAD3F5</text>
 <text x="32" y="532" fill="#b8c0e0" font-size="14" font-weight="650">EDITOR COLORS</text>
 <rect x="32" y="552" width="240" height="78" rx="8" fill="#24273a" stroke="#5b6078"/>
 <rect x="44" y="566" width="28" height="48" rx="4" fill="#363a4f"/>
@@ -62,10 +62,10 @@
 <text x="350" y="601" fill="#b8c0e0" font-size="12" font-weight="400">Surface 1</text>
 <text x="350" y="617" fill="#b8c0e0" font-size="12" font-weight="400">#494D64</text>
 <rect x="564" y="552" width="240" height="78" rx="8" fill="#24273a" stroke="#5b6078"/>
-<rect x="576" y="566" width="28" height="48" rx="4" fill="#f4dbd6"/>
+<rect x="576" y="566" width="28" height="48" rx="4" fill="#a5adcb"/>
 <text x="616" y="581" fill="#cad3f5" font-size="14" font-weight="600">Cursor</text>
-<text x="616" y="601" fill="#b8c0e0" font-size="12" font-weight="400">Rosewater</text>
-<text x="616" y="617" fill="#b8c0e0" font-size="12" font-weight="400">#F4DBD6</text>
+<text x="616" y="601" fill="#b8c0e0" font-size="12" font-weight="400">Subtext 0</text>
+<text x="616" y="617" fill="#b8c0e0" font-size="12" font-weight="400">#A5ADCB</text>
 <rect x="830" y="552" width="240" height="78" rx="8" fill="#24273a" stroke="#5b6078"/>
 <rect x="842" y="566" width="28" height="48" rx="4" fill="#5b6078"/>
 <text x="882" y="581" fill="#cad3f5" font-size="14" font-weight="600">Invisible characters</text>
@@ -82,10 +82,10 @@
 <text x="350" y="696" fill="#b8c0e0" font-size="12" font-weight="400">Red</text>
 <text x="350" y="712" fill="#b8c0e0" font-size="12" font-weight="400">#ED8796</text>
 <rect x="564" y="647" width="240" height="78" rx="8" fill="#24273a" stroke="#5b6078"/>
-<rect x="576" y="661" width="28" height="48" rx="4" fill="#8bd5ca"/>
+<rect x="576" y="661" width="28" height="48" rx="4" fill="#a6da95"/>
 <text x="616" y="676" fill="#cad3f5" font-size="14" font-weight="600">Debugger</text>
-<text x="616" y="696" fill="#b8c0e0" font-size="12" font-weight="400">Teal</text>
-<text x="616" y="712" fill="#b8c0e0" font-size="12" font-weight="400">#8BD5CA</text>
+<text x="616" y="696" fill="#b8c0e0" font-size="12" font-weight="400">Green</text>
+<text x="616" y="712" fill="#b8c0e0" font-size="12" font-weight="400">#A6DA95</text>
 <text x="32" y="781" fill="#b8c0e0" font-size="14" font-weight="650">FULL PALETTE</text>
 <rect x="32" y="806" width="28" height="42" rx="4" fill="#f4dbd6" stroke="#5b6078"/>
 <text x="69" y="822" fill="#cad3f5" font-size="13" font-weight="550">Rosewater</text>

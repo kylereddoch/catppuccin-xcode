@@ -87,7 +87,7 @@ def diagram(flavor, palette, mapping):
     for i, tokens in enumerate(lines):
         spans = ''.join(f'<tspan fill="{role(key)}">{escape(value)}</tspan>' for key,value in tokens)
         pieces.append(f'<text x="54" y="{168 + i * 24}" xml:space="preserve" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17">{spans}</text>')
-    legend=[('keyword','Keywords'),('keyword.attribute','Attributes / types'),('memberDeclaration','Functions / declarations'),('string','Strings'),('number','Numbers / constants'),('plainText','Plain text / variables'),('comment','Comments / documentation'),('string.regex','Regex / preprocessors'),('link','Links'),('markdownEmphasized','Documentation emphasis')]
+    legend=[('keyword','Keywords'),('keyword.attribute','Attributes / preprocessors'),('typeDeclaration','Types'),('projectMember.function','Functions / macros / links'),('memberDeclaration','Declarations / variables'),('string','Strings / characters'),('number','Numbers / constants'),('comment','Comments / documentation'),('string.regex','Regular expressions'),('plainText','Plain text')]
     for i,(key,label) in enumerate(legend):
         y=116+i*37
         rect(706,y,18,18,role(key),radius=4)

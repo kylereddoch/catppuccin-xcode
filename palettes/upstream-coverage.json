@@ -1,0 +1,423 @@
+{
+  "DVTConsoleDebuggerInputTextColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleDebuggerInputTextFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTConsoleDebuggerOutputTextColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleDebuggerOutputTextFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTConsoleDebuggerPromptTextColor": {
+    "status": "approximation",
+    "target": "debugger",
+    "note": "Use upstream green for the single native debugger role; this is not a separate console prompt override."
+  },
+  "DVTConsoleDebuggerPromptTextFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTConsoleExectuableInputTextColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleExectuableInputTextFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTConsoleExectuableOutputTextColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleExectuableOutputTextFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTConsoleTextBackgroundColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleTextInsertionPointColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTConsoleTextSelectionColor": {
+    "status": "unexposed",
+    "note": "No independent console override in the tested native recipe or Appearance color controls."
+  },
+  "DVTFontAndColorVersion": {
+    "status": "metadata",
+    "note": "Legacy plist version; native files use fileVersion 1."
+  },
+  "DVTMarkupTextBackgroundColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextBorderColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextCodeFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextEmphasisColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextEmphasisFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextInlineCodeColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextLinkColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextLinkFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextNormalColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextNormalFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextOtherHeadingColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextOtherHeadingFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextPrimaryHeadingColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextPrimaryHeadingFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextSecondaryHeadingColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextSecondaryHeadingFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTMarkupTextStrongColor": {
+    "status": "unexposed",
+    "note": "Rendered markup settings are distinct from source documentation comments; no direct native override verified."
+  },
+  "DVTMarkupTextStrongFont": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTScrollbarMarkerAnalyzerColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerBreakpointColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerDiffColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerDiffConflictColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerErrorColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerRuntimeIssueColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTScrollbarMarkerWarningColor": {
+    "status": "unexposed",
+    "note": "No independent scrollbar marker override verified; diffAddition/diffDeletion do not promise scrollbar parity."
+  },
+  "DVTSourceTextBackground": {
+    "status": "direct",
+    "target": "background"
+  },
+  "DVTSourceTextBlockDimBackgroundColor": {
+    "status": "unexposed",
+    "note": "No independent block dim background override verified."
+  },
+  "DVTSourceTextCurrentLineHighlightColor": {
+    "status": "direct",
+    "target": "currentLineHighlight"
+  },
+  "DVTSourceTextInsertionPointColor": {
+    "status": "direct",
+    "target": "insertionPointColor"
+  },
+  "DVTSourceTextInvisiblesColor": {
+    "status": "direct",
+    "target": "invisibles"
+  },
+  "DVTSourceTextSelectionColor": {
+    "status": "direct",
+    "target": "selectedTextBackgroundColor"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.attribute": {
+    "status": "direct",
+    "target": "keyword.attribute"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.character": {
+    "status": "direct",
+    "target": "number.character"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.comment": {
+    "status": "direct",
+    "target": "comment"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.comment.doc": {
+    "status": "direct",
+    "target": "markdown"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.comment.doc.keyword": {
+    "status": "direct",
+    "target": "markdownEmphasized"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.declaration.other": {
+    "status": "direct",
+    "target": "memberDeclaration"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.declaration.type": {
+    "status": "direct",
+    "target": "typeDeclaration"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.class": {
+    "status": "direct",
+    "target": "projectType.class"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.class.system": {
+    "status": "direct",
+    "target": "otherType.class"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.constant": {
+    "status": "direct",
+    "target": "projectMember.constant"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.constant.system": {
+    "status": "direct",
+    "target": "otherMember.constant"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.function": {
+    "status": "direct",
+    "target": "projectMember.function"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.function.system": {
+    "status": "direct",
+    "target": "otherMember.function"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.macro": {
+    "status": "direct",
+    "target": "preprocessor.macro"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.macro.system": {
+    "status": "direct",
+    "target": "preprocessor.macroSystem"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.type": {
+    "status": "direct",
+    "target": "projectType.type"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.type.system": {
+    "status": "direct",
+    "target": "otherType.type"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.variable": {
+    "status": "direct",
+    "target": "projectMember.variable"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.identifier.variable.system": {
+    "status": "direct",
+    "target": "otherMember.variable"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.keyword": {
+    "status": "direct",
+    "target": "keyword"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.mark": {
+    "status": "unexposed",
+    "note": "No dedicated MARK role verified; emphasized comment colors do not guarantee independent MARK styling."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.markup.code": {
+    "status": "unexposed",
+    "note": "No dedicated inline documentation code role verified."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.number": {
+    "status": "direct",
+    "target": "number"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.plain": {
+    "status": "direct",
+    "target": "plainText"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.preprocessor": {
+    "status": "direct",
+    "target": "preprocessor"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.regex": {
+    "status": "direct",
+    "target": "string.regex"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.regex.capturename": {
+    "status": "merged",
+    "target": "string.regex",
+    "note": "Native Appearance exposes one Regex color, not independently editable regex subcategories."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.regex.charname": {
+    "status": "merged",
+    "target": "string.regex",
+    "note": "Native Appearance exposes one Regex color, not independently editable regex subcategories."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.regex.number": {
+    "status": "merged",
+    "target": "string.regex",
+    "note": "Native Appearance exposes one Regex color, not independently editable regex subcategories."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.regex.other": {
+    "status": "merged",
+    "target": "string.regex",
+    "note": "Native Appearance exposes one Regex color, not independently editable regex subcategories."
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.string": {
+    "status": "direct",
+    "target": "string"
+  },
+  "DVTSourceTextSyntaxColors/xcode.syntax.url": {
+    "status": "direct",
+    "target": "link"
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.attribute": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.character": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.comment": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.comment.doc": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.comment.doc.keyword": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.declaration.other": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.declaration.type": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.class": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.class.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.constant": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.constant.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.function": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.function.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.macro": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.macro.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.type": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.type.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.variable": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.identifier.variable.system": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.keyword": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.mark": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.markup.code": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.number": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.plain": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.preprocessor": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.string": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  },
+  "DVTSourceTextSyntaxFonts/xcode.syntax.url": {
+    "status": "separate-setting",
+    "note": "Fonts are separate in Xcode 27; native color recipes do not set typography."
+  }
+}

@@ -29,42 +29,42 @@ All **38 explicit assignments** are listed here. “Fallback” is the broader c
 | --- | --- | --- | --- |
 | Plain text | Punctuation and unclassified source text | Text | `#CAD3F5` |
 | Comments | // Take a coffee break | Overlay 2 | `#939AB7` |
-| Emphasized comments | Comment emphasis / markers | Subtext 1 | `#B8C0E0` |
+| Emphasized comments | Comment emphasis / markers | Overlay 2 | `#939AB7` |
 | Documentation comments | /// A fresh cup of coffee | Overlay 2 | `#939AB7` |
-| Emphasized documentation | Emphasis inside documentation | Lavender | `#B7BDF8` |
+| Emphasized documentation | Emphasis inside documentation | Overlay 2 | `#939AB7` |
 | Keywords | struct, let, var, func, return | Mauve | `#C6A0F6` |
-| Attributes | @MainActor, @State | Yellow | `#EED49F` |
+| Attributes | @MainActor, @State | Teal | `#8BD5CA` |
 | Strings | "Coffee is ready" | Green | `#A6DA95` |
 | Regular expressions | /[A-Z]+/ | Pink | `#F5BDE6` |
 | Numbers | 42, 3.14 | Peach | `#F5A97F` |
-| Character literals | 'A' in a language with character literals | Teal | `#8BD5CA` |
-| Links | URLs in source documentation | Sapphire | `#7DC4E4` |
-| Preprocessor directives | #if, #endif | Pink | `#F5BDE6` |
-| Project macros | A macro defined in your project | Pink | `#F5BDE6` |
-| System macros | A macro supplied by the SDK | Pink | `#F5BDE6` |
+| Character literals | 'A' in a language with character literals | Green | `#A6DA95` |
+| Links | URLs in source documentation | Blue | `#8AADF4` |
+| Preprocessor directives | #if, #endif | Teal | `#8BD5CA` |
+| Project macros | A macro defined in your project | Blue | `#8AADF4` |
+| System macros | A macro supplied by the SDK | Blue | `#8AADF4` |
 | Type declarations | Coffee in struct Coffee | Yellow | `#EED49F` |
-| Member declarations | The declared property or function name | Blue | `#8AADF4` |
+| Member declarations | The declared property or function name | Text | `#CAD3F5` |
 | Project types — fallback | A type from your project | Yellow | `#EED49F` |
 | Project classes | A reference to your CoffeeStore class | Yellow | `#EED49F` |
 | Project type references | A reference to your Coffee type | Yellow | `#EED49F` |
-| Project members — fallback | A member from your project | Text | `#CAD3F5` |
+| Project members — fallback | A member from your project | Blue | `#8AADF4` |
 | Project functions | A call to your brew() function | Blue | `#8AADF4` |
 | Project constants | A reference classified as a project constant | Peach | `#F5A97F` |
 | Project variables | A reference classified as a project variable | Text | `#CAD3F5` |
 | External types — fallback | A type provided by a framework | Yellow | `#EED49F` |
 | External classes | A reference to an SDK class | Yellow | `#EED49F` |
 | External type references | String, Int, Text | Yellow | `#EED49F` |
-| External members — fallback | A member provided by a framework | Lavender | `#B7BDF8` |
+| External members — fallback | A member provided by a framework | Blue | `#8AADF4` |
 | External functions | print(), uppercased() | Blue | `#8AADF4` |
 | External constants | A reference classified as an SDK constant | Peach | `#F5A97F` |
-| External variables | A reference classified as an SDK variable | Lavender | `#B7BDF8` |
+| External variables | A reference classified as an SDK variable | Text | `#CAD3F5` |
 | Selection background | The fill behind selected text | Surface 1 | `#494D64` |
-| Cursor color | Your text insertion point | Rosewater | `#F4DBD6` |
+| Cursor color | Your text insertion point | Subtext 0 | `#A5ADCB` |
 | Current line background | The fill behind the active line | Surface 0 | `#363A4F` |
 | Invisible characters | Visible whitespace markers when enabled | Surface 2 | `#5B6078` |
 | Diff additions | Added code in a comparison | Green | `#A6DA95` |
 | Diff deletions | Removed code in a comparison | Red | `#ED8796` |
-| Debugger | The debugger color supplied to Xcode | Teal | `#8BD5CA` |
+| Debugger | The debugger color supplied to Xcode | Green | `#A6DA95` |
 
 ## Palette reference
 
@@ -72,7 +72,7 @@ These are all 26 official Macchiato colors. A color being in the palette does no
 
 | Color | Hex | Use in this theme |
 | --- | --- | --- |
-| Rosewater | `#F4DBD6` | Used by this theme |
+| Rosewater | `#F4DBD6` | Available in palette; not explicitly assigned |
 | Flamingo | `#F0C6C6` | Available in palette; not explicitly assigned |
 | Pink | `#F5BDE6` | Used by this theme |
 | Mauve | `#C6A0F6` | Used by this theme |
@@ -83,12 +83,12 @@ These are all 26 official Macchiato colors. A color being in the palette does no
 | Green | `#A6DA95` | Used by this theme |
 | Teal | `#8BD5CA` | Used by this theme |
 | Sky | `#91D7E3` | Available in palette; not explicitly assigned |
-| Sapphire | `#7DC4E4` | Used by this theme |
+| Sapphire | `#7DC4E4` | Available in palette; not explicitly assigned |
 | Blue | `#8AADF4` | Used by this theme |
 | Lavender | `#B7BDF8` | Used by this theme |
 | Text | `#CAD3F5` | Used by this theme |
-| Subtext 1 | `#B8C0E0` | Used by this theme |
-| Subtext 0 | `#A5ADCB` | Available in palette; not explicitly assigned |
+| Subtext 1 | `#B8C0E0` | Available in palette; not explicitly assigned |
+| Subtext 0 | `#A5ADCB` | Used by this theme |
 | Overlay 2 | `#939AB7` | Used by this theme |
 | Overlay 1 | `#8087A2` | Available in palette; not explicitly assigned |
 | Overlay 0 | `#6E738D` | Available in palette; not explicitly assigned |

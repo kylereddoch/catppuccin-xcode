@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/catppuccin/xcode",
+  "revision": "e3816a60caaf9889b81866924fd6ef0a4e2ad571",
+  "files": {
+    "latte": {
+      "path": "themes/Catppuccin Latte.xccolortheme",
+      "sha256": "b66cc1b4dc600eb2a98b10ba090806b8499a85a4e12bc7411e05061101e7b695"
+    },
+    "frappe": {
+      "path": "themes/Catppuccin Frapp\u00e9.xccolortheme",
+      "sha256": "799aba40641a34abc8a51d1b8de3a8b4c438f388e571afcee1f8a7e31f9c1d1b"
+    },
+    "macchiato": {
+      "path": "themes/Catppuccin Macchiato.xccolortheme",
+      "sha256": "2b170d142e908d83a587e8ac2adce076c79aa1a69a2d06c980e12500b281736e"
+    },
+    "mocha": {
+      "path": "themes/Catppuccin Mocha.xccolortheme",
+      "sha256": "8d926394b89893ab5a68b54952dc7c7bc877b97ab8733cb211ac783f4fddcdf4"
+    }
+  }
+}
