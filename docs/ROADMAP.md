@@ -25,4 +25,4 @@
 
 - Optional accent variants if Xcode's generated interface colors warrant them.
 - A separate legacy-format export if there is demand for Xcode 26 support.
-- A native-theme contribution to the official Catppuccin Xcode port, building on [issue #22](https://github.com/catppuccin/xcode/issues/22). See the [compatibility report](UPSTREAM-COMPATIBILITY.md).
+- Review and refine [upstream PR #24](https://github.com/catppuccin/xcode/pull/24), which adds native themes and references [issue #22](https://github.com/catppuccin/xcode/issues/22). See the [compatibility report](UPSTREAM-COMPATIBILITY.md).

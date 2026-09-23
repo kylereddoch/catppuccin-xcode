@@ -68,11 +68,13 @@ In particular, rendered documentation/markup is different from source documentat
 
 All four native files loaded and their Plain Text and Debugger hex controls matched the intended palette. Latte's visible keyword, attribute, string, regex, number, character, link, preprocessor, macro and type-declaration controls also matched. This was an Appearance preview and control check, not a full visual certification of every workspace surface. Original selections, fonts, cursor preferences and installed Mocha were restored after testing.
 
-## Suggested upstream contribution
+## Upstream contribution
 
 The natural target is **[catppuccin/xcode](https://github.com/catppuccin/xcode)**, adding Xcode 27 support alongside its existing legacy files. The central Catppuccin repository already points to an Xcode port; a second listing would not implement support in that port.
 
-A focused contribution could:
+[PR #24: native Xcode 27 workspace themes](https://github.com/catppuccin/xcode/pull/24) is open against the official port, referencing issue #22 and this project. It adds the four tested native files, generation based on the existing legacy files, native validation, and compatibility documentation.
+
+The contribution scope is:
 
 - Reference [issue #22](https://github.com/catppuccin/xcode/issues/22), including the precise tested builds and importer results.
 - Add native workspace files for all four flavors while retaining the existing `.xccolortheme` files for older Xcode versions.
@@ -80,4 +82,4 @@ A focused contribution could:
 - Add separate installation instructions for legacy and native themes, palette/coverage checks, and real Xcode previews after reviewing the remaining surfaces.
 - Preserve upstream licensing and project conventions. See the [organization's contribution guidelines](https://github.com/catppuccin/.github/blob/main/CONTRIBUTING.md).
 
-This repository now contains the comparison, native mappings and regression tests needed for that discussion. An upstream PR has not been opened, and the remaining visual checks should be disclosed rather than presented as completed.
+This repository contains the comparison, native mappings and regression tests supporting the PR. The submission explicitly discloses the remaining visual checks. Local checks pass; at submission time, the upstream workflows required maintainer approval to run.
