@@ -1,6 +1,8 @@
-# Catppuccin for Xcode 27
+# Catppuccin for Xcode
 
 Four pastel palettes for Xcode's Appearance settings, from light Latte to dark Mocha. Native workspace themes with solid backgrounds and 38 explicit color assignments for syntax, documentation, selections, cursors, diffs, and the debugger.
+
+**Requires Xcode 27**, which introduced workspace-wide theming in Appearance settings. These themes use its native `.xcworkspacecolortheme` format; older Xcode versions are not supported.
 
 An independent project by Kyle Reddoch, based on the [Catppuccin palette](https://github.com/catppuccin/palette). This is not an official Catppuccin port. The [official Xcode port](https://github.com/catppuccin/xcode) is a separate project.
 
@@ -24,8 +26,8 @@ Requires macOS and **Xcode 27**. These `.xcworkspacecolortheme` files are not co
 Download this repository using **Code → Download ZIP** and unzip it, or clone it:
 
 ```sh
-git clone https://github.com/kylereddoch/catppuccin-xcode-27.git
-cd catppuccin-xcode-27
+git clone https://github.com/kylereddoch/catppuccin-xcode.git
+cd catppuccin-xcode
 sh install.sh --all
 ```
 
